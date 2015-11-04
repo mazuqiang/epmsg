@@ -1,0 +1,20 @@
+<?php
+$config['config'] = array(
+	'num_links'			=> 2,
+	'first_link'		=> '首页',
+	'first_tag_open'	=> '<span>',
+	'first_tag_close'	=> '</span>',
+	'last_link'			=> '尾页',
+	'last_tag_open'		=> '<span>',
+	'last_tag_close'	=> '</span>',	
+	'prev_link'			=> '上一页',		
+	'prev_tag_open'		=> '<span>',
+	'prev_tag_close'	=> '</span>',		
+	'next_link'			=> '下一页',
+	'next_tag_open'		=> '<span>',
+	'next_tag_close'	=> '</span>',
+	'cur_tag_open'		=> '<span class="number current">',
+	'cur_tag_close'		=> '</span>',		
+	'num_tag_open'		=> '<span class="number">',
+	'num_tag_close'		=> '</span>',
+);
