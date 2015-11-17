@@ -26,6 +26,10 @@ class RS_Model extends CI_Model{
 		return $results['COUNT'];
 	}
 	
+	public function get_pk(){
+	    return array_shift($this->list_fields());
+	}
+	
 	
 	function page($where = array(), $like  = array(), $per_page = 0, $url){
 		$data['count'] = $this->get_count($where, $like);

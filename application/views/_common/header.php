@@ -27,6 +27,16 @@ want the CSS completely valid -->
 
 
 <script type="text/javascript" src="<?php echo (CURRENT_PRS_STYLE.'js/scripts/simpla.jquery.configuration.js'); ?>"></script>
+
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 <script type="text/javascript" src="<?php echo (CURRENT_PRS_STYLE.'js/scripts/main.js'); ?>"></script>
 <script > var h = '<?php echo base_url(); ?>';</script>
 </head>
